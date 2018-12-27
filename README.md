@@ -15,7 +15,8 @@ If you want to contribute, please read [CONTRIBUTING.md](./CONTRIBUTING.md).
 * [Events](#events)
 * [Podcasts](#podcasts)
 * [Resources](#resources)
-* [Bots](#bots)
+* [Services](#services)
+* [Frameworks and libraries](#frameworks-and-libraries)
 
 ## Articles
 
@@ -35,12 +36,15 @@ If you want to contribute, please read [CONTRIBUTING.md](./CONTRIBUTING.md).
 * [Incident Management from the Future](https://www.youtube.com/watch?v=vFkfMn2P8ysA) + [slides](https://cloud.app.box.com/s/xm8ni5b61iyuk0nclq7jcvtkhkzcepdx) – How Michael Ansel manages incidents via chat at Box.
 * [ChatOps San Francisco YouTube Channel](https://www.youtube.com/channel/UCAvvR4g9fodNAS61Ep_XnMg) – More videos from each meetup.
 * [Installing Hubot on Windows with PowerShell DSC](https://www.youtube.com/watch?v=Gh-vYprIo7c) - Using the Hubot PowerShell Desired State Configuration (DSC) resource to install Hubot on Windows.
-* [Embrace ChatOps, stop installing deployment software - Laracon EU 2016](https://www.youtube.com/watch?v=SZ3UfwBACIo) - A talk about how to leverage chatops for automated deployment using Hubot - [slides](http://www.slideshare.net/geshan/embrace-chatops-stop-installing-deployment-software-larcon-eu-2016).
+* [Embrace ChatOps, stop installing deployment software](https://www.youtube.com/watch?v=SZ3UfwBACIo) + [slides](http://www.slideshare.net/geshan/embrace-chatops-stop-installing-deployment-software-larcon-eu-2016) - A talk from Laracon EU 2016 about how to leverage ChatOps for automated deployment using Hubot.
+* [ChatOps with PowerShell and Errbot](https://www.youtube.com/watch?v=XIMOFnfdOx0) - A talk from PowerShell Conference Europe 2017 about how get started with Errbot on Windows with PowerShell.
+* [ChatOps with PoshBot and PowerShell](https://www.youtube.com/watch?v=36fkyKYq43c) - An overview of PoshBot, a PowerShell-based bot framework at the Portland PowerShell user group.
 
 ## Books
 
 * [ChatOps For Dummies](https://victorops.com/chatops-for-dummies/) – A high-level guide to understanding the origins of the practice, the benefits and tools needed to get started.
 * [ChatOps – Managing Operations in Group Chat](https://victorops.com/knowledge-drop/devops-docs/chatops-managing-operations-group-chat/) – The key ChatOps concepts and technologies by Jason Hand.
+* [Automation and Monitoring with Hubot](https://leanpub.com/automation-and-monitoring-with-hubot) - An e-book that walks you through building a Hubot driven ChatOps implementation.
 
 ## Events
 
@@ -49,14 +53,19 @@ If you want to contribute, please read [CONTRIBUTING.md](./CONTRIBUTING.md).
 ## Podcasts
 
 * [ChatOps Extravaganza With Jason Hand, Sasha Rosenbaum, And Peter Burkholder](https://www.arresteddevops.com/chatops/) – An episode about best practices of ChatOps.
+* [ChatOps with Jason Hand](http://softwareengineeringdaily.com/2016/11/02/chatops-with-jason-hand/) - An episode about ChatOps in general.
 
 ## Resources
 
 * [/r/chatops](https://www.reddit.com/r/chatops/) – Subreddit with articles and discussion.
 
-## Bots
+## Services
 
-These open source projects will help you to build a bot in order to automate your company chat depending on platform.
+* [WorkflowCI](https://www.workflowci.com) – IFTTT for developers (freemium). Integrates with Slack, GitHub, CircleCI, Google Cloud Build.
+
+## Frameworks and libraries
+
+These open source projects will help you to build a bot to automate your company chat depending on the platform.
 
 * [AIM](#aim)
 * [Campfire](#campfire)
@@ -71,10 +80,10 @@ These open source projects will help you to build a bot in order to automate you
 * [Idobata](#idobata)
 * [iMessage](#imessage)
 * [IRC](#irc)
-* [Jabber](#jabber)
 * [Jabbr](#jabbr)
 * [Let's chat](#lets-chat)
 * [Lingr](#lingr)
+* [Matrix](#matrix)
 * [Mattermost](#mattermost)
 * [Partychat](#partychat)
 * [QQ](#qq)
@@ -82,6 +91,7 @@ These open source projects will help you to build a bot in order to automate you
 * [Skype](#skype)
 * [Skyweb](#skyweb)
 * [Slack](#slack)
+* [Spark](#spark)
 * [Talker](#talker)
 * [Telegram](#telegram)
 * [Tox](#tox)
@@ -92,8 +102,9 @@ These open source projects will help you to build a bot in order to automate you
 * [Visual Studio Online](#visual-studio-online)
 * [Vkontakte](#vkontakte)
 * [WeChat](#wechat)
-* [XMPP](#xmpp)
+* [XMPP / Jabber](#xmpp--jabber)
 * [Yammer](#yammer)
+* [Zulip](#zulip)
 
 ### AIM
 
@@ -127,6 +138,7 @@ These open source projects will help you to build a bot in order to automate you
 * [FacebookMessenger](https://github.com/hyperoslo/facebook-messenger) (Ruby)
 * [Hubot](https://hubot.github.com/) + [adapter](https://github.com/ClaudeBot/hubot-messenger-bot) (CoffeeScript, Node.js)
 * [Lita](https://www.lita.io/) + [adapter](https://github.com/ASoftCo/lita-facebook) (Ruby)
+* [opsdroid](https://opsdroid.github.io/) + [connector](https://github.com/opsdroid/connector-facebook) (Python)
 
 ### Fleep
 
@@ -145,6 +157,7 @@ These open source projects will help you to build a bot in order to automate you
 
 ### HipChat
 
+* [Cog](https://operable.io/) (Any language)
 * [Errbot](http://errbot.io/) (Python)
 * [Hal](https://hal.readthedocs.io/) + [adapter](https://hal.readthedocs.io/en/latest/adapters/hipchat.html) (Go)
 * [Hipbot](https://github.com/pewniak747/hipbot) (Ruby)
@@ -170,10 +183,7 @@ These open source projects will help you to build a bot in order to automate you
 * [Hubot](https://hubot.github.com/) + [adapter](https://github.com/nandub/hubot-irc) (CoffeeScript, Node.js)
 * [Lita](https://www.lita.io/) + [adapter](https://github.com/litaio/lita-irc) (Ruby)
 * [PagerBot](https://github.com/stripe-contrib/pagerbot) (Ruby)
-
-### Jabber
-
-* [Jabberjay](https://github.com/vbauer/jabberjay) (Clojure)
+* [Yetibot](https://github.com/yetibot/yetibot) (Clojure)
 
 ### Jabbr
 
@@ -187,8 +197,13 @@ These open source projects will help you to build a bot in order to automate you
 
 * [Hubot](https://hubot.github.com/) + [adapter](https://github.com/miyagawa/hubot-lingr) (CoffeeScript, Node.js)
 
+### Matrix
+
+* [opsdroid](https://opsdroid.github.io/) + [connector](https://github.com/opsdroid/connector-matrix) (Python)
+
 ### Mattermost
 
+* [Errbot](http://errbot.io) + [adapter](https://github.com/Vaelor/errbot-mattermost-backend) (Python)
 * [Hubot](https://hubot.github.com/) + [adapter](https://github.com/renanvicente/hubot-mattermost) (CoffeeScript, Node.js)
 * [Hubot](https://hubot.github.com/) + [adapter](https://github.com/loafoe/hubot-matteruser) via Websockets (CoffeeScript, Node.js)
 
@@ -202,6 +217,7 @@ These open source projects will help you to build a bot in order to automate you
 
 ### Rocket.Chat
 
+* [Errbot](http://errbot.io) + [adapter](https://github.com/AoiKuiyuyou/AoikRocketChatErrbot) (Python)
 * [Hubot](https://hubot.github.com/) + [adapter](https://github.com/RocketChat/hubot-rocketchat) (CoffeeScript, Node.js)
 
 ### Skype
@@ -217,6 +233,7 @@ These open source projects will help you to build a bot in order to automate you
 ### Slack
 
 * [Botkit](https://github.com/howdyai/botkit) (JavaScript, Node.js)
+* [Cog](https://operable.io/) (Any language)
 * [Elixir-Slack](https://github.com/BlakeWilliams/Elixir-Slack) (Elixir)
 * [Errbot](http://errbot.io/) (Python)
 * [Hal](https://hal.readthedocs.io/) + [adapter](https://hal.readthedocs.io/en/latest/adapters/slack.html) (Go)
@@ -224,10 +241,17 @@ These open source projects will help you to build a bot in order to automate you
 * [Jubot](https://github.com/liquidz/jubot) (Clojure)
 * [Lita](https://www.lita.io/) + [adapter](https://github.com/litaio/lita-slack) (Ruby)
 * [Multivac](https://github.com/vektorlab/multivac) (Python, Docker)
+* [opsdroid](https://opsdroid.github.io/) + [connector](https://github.com/opsdroid/connector-slack) (Python)
 * [PagerBot](https://github.com/stripe-contrib/pagerbot) (Ruby)
+* [PoshBot](https://github.com/poshbotio/PoshBot) (PowerShell)
 * [Slack-Ruby-Bot](https://github.com/dblock/slack-ruby-bot) (Ruby)
 * [Slackbotsy](https://github.com/rlister/slackbotsy) (Ruby)
 * [Slacker](https://github.com/koudelka/slacker) (Elixir)
+* [Yetibot](https://github.com/yetibot/yetibot) (Clojure)
+
+### Spark
+
+* [opsdroid](https://opsdroid.github.io/) + [connector](https://github.com/opsdroid/connector-ciscospark) (Python)
 
 ### Talker
 
@@ -238,6 +262,7 @@ These open source projects will help you to build a bot in order to automate you
 * [Errbot](http://errbot.io/) (Python)
 * [Hubot](https://hubot.github.com/) + [adapter](https://github.com/lukefx/hubot-telegram) (CoffeeScript, Node.js)
 * [Lita](https://www.lita.io/) + [adapter](https://github.com/wonderbread/lita-telegram) (Ruby)
+* [opsdroid](https://opsdroid.github.io/) + [connector](https://github.com/opsdroid/connector-telegram) (Python)
 * [Telegram-bot-ruby](https://github.com/atipugin/telegram-bot-ruby) (Ruby)
 * [TelegramBot](https://github.com/hangyas/TelegramBot) (Crystal)
 * [TelegramBot](https://github.com/eljojo/telegram_bot) (Ruby)
@@ -258,6 +283,7 @@ These open source projects will help you to build a bot in order to automate you
 * [Chatterbot](https://muffinista.github.io/chatterbot/) (Ruby)
 * [Hubot](https://hubot.github.com/) + [adapter](https://github.com/MathildeLemee/hubot-twitter) (CoffeeScript, Node.js)
 * [Lita](https://www.lita.io/) + [adapter](https://github.com/fukayatsu/lita-twitter) (Ruby)
+* [opsdroid](https://opsdroid.github.io/) + [connector](https://github.com/opsdroid/connector-twitter) (Python)
 
 ### Typetalk
 
@@ -273,20 +299,27 @@ These open source projects will help you to build a bot in order to automate you
 
 ### Vkontakte
 
+* [Errbot](http://errbot.io) + [adapter](https://github.com/Ax3Effect/errbot-vk) (Python)
 * [Lita](https://www.lita.io/) + [adapter](https://github.com/braiden-vasco/lita-vkontakte) (Ruby)
 
 ### WeChat
 
 * [Hubot](https://hubot.github.com/) + [adapter](https://github.com/KasperDeng/Hubot-WeChat) (CoffeeScript, Node.js)
 
-### XMPP
+### XMPP / Jabber
 
 * [Errbot](http://errbot.io/) (Python)
 * [Hubot](https://hubot.github.com/) + [adapter](https://github.com/markstory/hubot-xmpp) (CoffeeScript, Node.js)
+* [Jabberjay](https://github.com/vbauer/jabberjay) (Clojure)
 
 ### Yammer
 
-* [Hubot](https://hubot.github.com/) [adapter](https://github.com/athieriot/hubot-yammer) (CoffeeScript, Node.js)
+* [Hubot](https://hubot.github.com/) + [adapter](https://github.com/athieriot/hubot-yammer) (CoffeeScript, Node.js)
+
+### Zulip
+
+* [Errbot](http://errbot.io/) + [adapter](https://github.com/zulip/errbot-backend-zulip) (Python)
+* [Hubot](https://hubot.github.com/) + [adapter](https://github.com/zulip/hubot-zulip) (CoffeeScript, Node.js)
 
 ---
 
